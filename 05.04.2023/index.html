@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>identificaçao</legend>
+        <label for="cnome">nome</label>
+        <input type="text" id="cnome"required>
+        <br><br>
+
+        <p>Onde voce mora?</p>
+        <input type="radio">
+        <label for="">cidade</label> <br>
+        <input type="radio">
+        <label for="">interior</label><br>
+    </fieldset>
+    
+    <fieldset>
+        <p>Qual é o seu meio de transporte?</p>
+        <input type="checkbox">
+        <label for="">bicicleta</label> <br>
+        <input type="checkbox">
+        <label for="">onibus</label> <br>
+        <input type="checkbox">
+        <label for="">metro</label><br>
+    </fieldset>
+
+        <fieldset>
+        <p>selecione o seu time</p>
+        <select name="" id="">
+        <option value="palmeiras">palmeiras</option>
+        <option value="Agua santa">Agua santa</option>
+        <option value="SBC">SBC</option>
+        </select><BR></BR>
+        </fieldset>
+
+        <fieldset>
+        <p>Escolha a sua cidade</p>
+        <label for="">cidade</label>
+        <input autocomplete="on"
+        list="cidade"
+        placeholder="sua cidade">
+        <datalist id="cidade">
+            <option value="São paulo">São paulo</option>
+            <option value="Bahia">Bahia</option>
+            <option value="Minas gerais">Minas gerais</option>
+            <option value="Rio de janeiro">Rio de janeiro</option>
+        </datalist><br><br>
+        </fieldset>
+       
+        0 <input type="range"> 100
+        <br><br>
+
+        <p>sugestoes,elogios e criticas</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    
+            
+
+        
+
+        <input type="submit" value="encaminhar">
+
+    </form>
+</body>
+</html>
